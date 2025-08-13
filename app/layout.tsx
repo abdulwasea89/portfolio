@@ -20,8 +20,8 @@ const ibmPlexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "PS Parwez • Portfolio",
-  description: "PS Parwez's personal portfolio showcasing projects, skills, and experience.",
+  title: "Abdul Wasea • Portfolio",
+  description: "Abdul Wasea personal portfolio showcasing projects, skills, and experience.",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+
       </head>
       <body
         className={`${spaceGrotesk.variable} ${ibmPlexMono.variable} antialiased`}

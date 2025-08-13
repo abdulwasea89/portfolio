@@ -17,12 +17,12 @@ export default function ContactPage() {
           title="I Love to hear from you."
           description="Connect with Me Today. Let's Create Something Amazing Together!"
         >
-          <div className="w-full ">
+          {/* <div className="w-full ">
             <div className="flex  items-start flex-none flex-nowrap  w-full gap-5 h-min justify-start p-0 relative">
               <Button position='left' className="w-min" icon={<Mail size={18} />} title='Email Me' />
               <Button position='left' className="w-min" icon={<Calendar1 size={18} />} title='Schedule Call' />
             </div>
-          </div>
+          </div> */}
         </SectionHeading>
 
         <ContactForm />

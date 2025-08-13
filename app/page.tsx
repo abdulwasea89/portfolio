@@ -1,21 +1,22 @@
+"use client"
+import React from 'react'
 import Hero from '@/components/Hero/Hero'
 import MyExperience from '@/components/MyExperience/MyExperience'
-import MyServices from '@/components/MyServices/MyServices'
 import MyStack from '@/components/MyStack/MyStack'
+import MyServices from '@/components/MyServices/MyServices'
 import ShowCase from '@/components/ShowCase'
 import Testimonials from '@/components/Testimonials'
-import React from 'react'
 
 export default function Home() {
   return (
-    <div className="flex lg:flex-1 flex-col gap-0 h-min px-5 overflow-hidden p-0 relative lg:px-0 w-full flex-wrap lg:flex-nowrap items-center justify-start">
-      <div className='gap-[100px] flex-col max-w-full w-full lg:max-w-[750px] lg:w-[80%] lg:flex-nowrap flex items-center flex-none h-min justify-center  relative overflow-hidden lg:overflow-visible p-[80px_0px]  ' >
+    <div className="flex flex-col gap-0 px-5 lg:px-0 w-full">
+      <div className='flex flex-col gap-[100px] max-w-full lg:max-w-[750px] lg:w-[80%] mx-auto py-[80px]'>
         <Hero />
         <MyExperience />
         <MyStack />
         <MyServices />
-        <ShowCase showData={2} isMore />
-        <Testimonials />
+        <ShowCase isMore={true} showData={2} layout="list" />
+        {/* <Testimonials /> */}
       </div>
     </div>
   )

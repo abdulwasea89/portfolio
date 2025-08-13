@@ -50,7 +50,7 @@ export interface myServicesTypes {
   id: number;
   title: string;
   description: string;
-  icon: string;
+  icon?: string;
   link: string;
 }
 export interface myShowCasesTypes {
@@ -60,8 +60,6 @@ export interface myShowCasesTypes {
   link: string;
   type: string;
   theme: string;
-  pages: number;
-  image: StaticImageData | string;
 }
 
 export interface testimonialsTypes {
@@ -75,11 +73,8 @@ export interface testimonialsTypes {
 export interface myServicesPlansTypes {
   id: number;
   service: string;
-  price: string;
   description: string;
-  completedWorks: string;
   experience: string;
-  totalHoursWorked: string;
   icon: string;
 }
 

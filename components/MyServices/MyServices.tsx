@@ -35,13 +35,13 @@ export default function MyServices() {
                                 <Link href={service.link} className='bg-very-dark-gray border border-dark-gray-3 rounded-xl w-full cursor-pointer items-start flex flex-col flex-nowrap gap-[14px] h-min justify-start overflow-visible p-5 relative group '>
                                     {/* top  */}
                                     <div className="flex items-center flex-none flex-nowrap gap-[10px] h-min justify-start overflow-visible p-0 relative w-full ">
-                                        <div className="flex flex-none items-center flex-nowrap gap-[10px] h-min justify-center overflow-hidden p-2 relative w-min border border-border-color bg-dark-gray-3 rounded-lg ">
+                                        {/* <div className="flex flex-none items-center flex-nowrap gap-[10px] h-min justify-center overflow-hidden p-2 relative w-min border border-border-color bg-dark-gray-3 rounded-lg ">
                                             <div className="aspect-square flex-none h-auto overflow-hidden relative w-[30px]  ">
                                                 <figure className='absolute inset-0 rounded-[inherit] w-full h-full '>
                                                     <Image width={30} height={30} src={service.icon} alt="icon" className='block w-full h-full rounded-[inherit] object-cover object-center' />
                                                 </figure>
                                             </div>
-                                        </div>
+                                        </div> */}
 
                                         <div className="flex-1 flex flex-col justify-start flex-shrink-0 h-auto relative whitespace-pre-wrap break-words">
                                             <p className='font-bold text-[20px] text-white leading-[1.2em] '>{service.title}</p>

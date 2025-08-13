@@ -11,7 +11,7 @@ interface Props {
 
 export default function SectionHeading({ icon, title, description, children }: Props) {
     return (
-        <div className="w-full flex float-start flex-col flex-nowrap gap-[10px] h-min justify-start overflow-visible p-[0px_0px_30px]  relative border-b border-dashed border-dark-gray-4 ">
+        <div className="w-full flex float-start flex-col flex-nowrap gap-[10px] h-min justify-start overflow-visible p-[0px_0px_30px]  relative border-b border-dashed border-dark-gray-4 mt-4 ">
             <div className="flex items-center flex-none flex-nowrap gap-[6px] h-min justify-start overflow-visible p-0 relative w-full ">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

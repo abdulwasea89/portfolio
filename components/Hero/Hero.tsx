@@ -58,7 +58,7 @@ export default function Hero() {
                             transition={{ duration: 0.5, type: "spring", stiffness: 100, delay: 0.2 }}
                             viewport={{ once: true }}
                             className="text-4xl leading-[1.2em] font-bold text-white">
-                            Pragadesh V
+                            Abdul Wasea
                         </motion.h1>
                     </div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, type: "spring", stiffness: 100, delay: 0.3 }}
                         viewport={{ once: true }}
                         className="text-[18px] text-light-gray-2 font-medium leading-[150%] mb-4">
-                        Experienced web developer from Kerala, India, with a passion for crafting seamless digital experiences and a proven track record.
+                        Experienced web developer from Islamabad, Pakistan, with a passion for crafting seamless digital experiences and a proven track record.
                     </motion.p>
 
                     <motion.div

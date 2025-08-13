@@ -1,37 +1,69 @@
 import { Mail, User, Zap } from "lucide-react";
 import {
-  asanaIcon,
-  athonLogo,
-  client_1,
-  client_2,
-  client_3,
-  client_4,
+  AvatarMe,
+  handGif,
   discord,
   dribble,
   dribbleIcon,
-  facebook,
-  figmaIcon,
-  framerIcon,
-  graphicDesignIcon,
-  instagramIcon,
-  linkedInIcon,
-  notionIcon,
   pinterest,
+  tiktok,
+  snapchat,
+  facebook,
+  spotify,
+  twitter,
+  youtube,
+  nextjsIcon,
+  tailwindIcon,
+  zodIcon,
+  fastapiIcon,
+  openaiIcon,
+  langchainIcon,
+  n8nIcon,
+  botpressIcon,
+  mastraIcon,
+  perplexityIcon,
+
+  dockerIcon,
+  vercelIcon,
+  
+  briefcaseIconley,
+  vortexLogo,
   pixelworksLogo,
+  athonLogo,
+  stackIcon,
+  figmaIcon,
+  notionIcon,
+  webflowIcon,
+  framerIcon,
+  slackIcon,
+  asanaIcon,
+  rightArrow,
+  zapIcon,
+  webDesignIcon,
+  webDevIcon,
+  graphicDesignIcon,
+  seoOptIcon,
   project_1,
   project_2,
   project_3,
   project_4,
-  seoOptIcon,
-  slackIcon,
-  snapchat,
-  spotify,
-  vortexLogo,
-  webDesignIcon,
-  webDevIcon,
-  webflowIcon,
+  flyIcon,
+  linkIcon,
+  starLig,
+  client_1,
+  client_2,
+  client_3,
+  client_4,
   XLogo,
+  locationIcon,
+  calendarIcon,
+  emailIcon,
+  questionMarkIcon,
+  multiplyIcon,
+  instagramIcon,
+  linkedInIcon,
 } from "@/app/assets/assets";
+
 import { Github, Instagram } from 'lucide-react'
 
 import { counterListsType, FAQ, FollowerData, myExperienceTypes, myServicesPlansTypes, myServicesTypes, myShowCasesTypes, myStackTypes, socialBrandsTypes, testimonialsTypes } from "@/types";
@@ -64,13 +96,13 @@ export const socialLists: socialListsTypes[] = [
     id: 1,
     title: 'Instagram',
     icon: <Instagram size={22} />,
-    link: 'https://www.instagram.com/'
+    link: 'https://www.instagram.com/abdul_wasea89/'
   },
   {
     id: 2,
     title: 'Github',
     icon: <Github size={22} />,
-    link: 'https://www.github.com/psparwez'
+    link: 'https://github.com/abdulwasea89'
   },
   {
     id: 3,
@@ -80,7 +112,7 @@ export const socialLists: socialListsTypes[] = [
         <path d="M10.4883 14.651L15.25 21H22.25L14.3917 10.5223L20.9308 3H18.2808L13.1643 8.88578L8.75 3H1.75L9.26086 13.0145L2.31915 21H4.96917L10.4883 14.651ZM16.25 19L5.75 5H7.75L18.25 19H16.25Z"></path>
       </svg>
     ),
-    link: 'https://www.twitter.com/psparwez'
+    link: 'https://x.com/AiveonAi'
   }
 ]
 
@@ -127,7 +159,7 @@ export const counterLists: counterListsType[] = [
   {
     id: 1,
     title: "Happy Clients",
-    value: 45,
+    value: 2,
   },
   {
     id: 2,
@@ -137,166 +169,203 @@ export const counterLists: counterListsType[] = [
   {
     id: 3,
     title: "Completed Tasks",
-    value: 40,
+    value: 50,
   },
   {
     id: 4,
     title: "Awards Received",
-    value: 6,
+    value: 7,
   },
 ];
 
 export const myExperience: myExperienceTypes[] = [
-  {
-    id: 1,
-    year: "2023 - Present",
-    title: "Product Designer",
-    company: "Vortex",
-    label: 'Tech Firm',
-    description: "Headed product design initiatives, defined design strategy, and ensured alignment with business objectives for market-leading products.",
-    link: "vortex.com",
-    logo: vortexLogo
-  },
-  {
-    id: 2,
-    year: "2022 - 2023",
-    title: "Senior UI/UX Designer",
-    company: "PixelWorks",
-    label: 'Design Studio',
-    description: "Provided leadership in UI/UX design, mentored junior designers, and collaborated with cross-functional teams for product excellence.",
-    link: "pixelworks.io",
-    logo: pixelworksLogo
-  },
-  {
-    id: 3,
-    year: "2020 - 2022",
-    title: "UI/UX Designer",
-    company: "Athon",
-    label: 'Tech Start-up',
-    description: "Led UI/UX design projects from concept to delivery, conducted user testing, and iterated designs for optimal user experience.",
-    link: "athon.com",
-    logo: athonLogo
-  }
-]
+{
+  "id": 1,
+  "year": "Nov 2023 - Present",
+  "title": "Freelance Full Stack Developer & AI Agent Developer",
+  "company": "Self-Employed",
+  "label": "Freelancer",
+  "description": "Freelance AI Agent & Website Developer specializing in building intelligent, scalable solutions. Experienced in developing custom AI agents using LLMs and automation frameworks, as well as creating responsive, high-performance web applications with modern frontend (React, Next.js) and backend (FastAPI) technologies. Skilled in integrating AI capabilities into web platforms to enhance automation, personalization, and user experience. Proficient in Python, JavaScript, OpenAI Agents SDK, N8N, Botpress, Mastra (AI Agent Fromework), LangChain, LangGraph, and RESTful API integration, delivering high-quality projects to international clients on time and to specification.",
+  "link": "",
+  "logo": "pixelworksLogo"
+}
 
+]
 export const myStack: myStackTypes[] = [
-  {
-    id: 1,
-    title: "Figma",
-    description: "Interface Design Tool",
-    logo: figmaIcon,
-    link: "https://www.figma.com",
-  },
-  {
-    id: 2,
-    title: "Notion",
-    description: "Productivity Tool",
-    logo: notionIcon,
-    link: "https://www.notion.so",
-  },
-  {
-    id: 3,
-    title: "Webflow",
-    description: "No Code Design Tool",
-    logo: webflowIcon,
-    link: "https://www.webflow.com",
-  },
-  {
-    id: 4,
-    title: "Framer",
-    description: "No Code Design Tool",
-    logo: framerIcon,
-    link: "https://www.framer.com",
-  },
-  {
-    id: 5,
-    title: "Slack",
-    description: "Productivity Tool",
-    logo: slackIcon,
-    link: "https://slack.com",
-  },
-  {
-    id: 6,
-    title: "Asana",
-    description: "Productivity Tool",
-    logo: asanaIcon,
-    link: "https://www.asana.com",
-  }
+  { id: 1, title: "Figma", description: "Interface Design Tool", logo: figmaIcon, link: "https://www.figma.com" },
+  { id: 2, title: "Notion", description: "Productivity Tool", logo: notionIcon, link: "https://www.notion.so" },
+  { id: 3, title: "Slack", description: "Productivity Tool", logo: slackIcon, link: "https://slack.com" },
+  { id: 4, title: "Next.js", description: "React Framework for SSR & SSG", logo: nextjsIcon, link: "https://nextjs.org" },
+  { id: 5, title: "Tailwind CSS", description: "Utility-first CSS Framework", logo: tailwindIcon, link: "https://tailwindcss.com" },
+  { id: 6, title: "Zod", description: "TypeScript-first Schema Validation", logo: zodIcon, link: "https://github.com/colinhacks/zod" },
+  { id: 7, title: "FastAPI", description: "Python Backend Framework", logo: fastapiIcon, link: "https://fastapi.tiangolo.com/" },
+  { id: 8, title: "OpenAI SDK / Agents", description: "AI Integration & Automation", logo: openaiIcon, link: "https://platform.openai.com/" },
+  { id: 9, title: "LangChain", description: "LLM & AI Agent Framework", logo: langchainIcon, link: "https://www.langchain.com" },
+  { id: 10, title: "n8n", description: "Automation & Workflow Tool", logo: n8nIcon, link: "https://n8n.io" },
+  { id: 11, title: "Botpress", description: "Conversational AI Platform", logo: botpressIcon, link: "https://botpress.com" },
+  { id: 12, title: "Mastra", description: "AI Agent Framework", logo: mastraIcon, link: "https://www.mastra.ai" },
+  { id: 13, title: "Perplexity AI", description: "AI-Powered Answer Engine", logo: perplexityIcon, link: "https://www.perplexity.ai" },
+  { id: 15, title: "Docker", description: "Containerization Platform", logo: dockerIcon, link: "https://www.docker.com" },
+  { id: 16, title: "Vercel", description: "Frontend Hosting / Deployment", logo: vercelIcon, link: "https://vercel.com" },
 ]
-
 export const myServices: myServicesTypes[] = [
   {
     id: 1,
-    title: 'Web Design',
-    description: 'Crafting visually captivating and user-friendly websites for online success.',
-    icon: webDesignIcon,
+    title: 'Full Stack Development',
+    description: 'Developing scalable web applications with Next.js and React for dynamic frontends, powered by FastAPI and Prisma for reliable backends and optimized databases, delivering responsive, high-performance results.',
     link: '/services'
   },
   {
     id: 2,
-    title: 'Web Development',
-    description: 'Bringing ideas to life with robust and scalable web solutions.',
-    icon: webDevIcon,
+    title: 'AI Agent Solutions',
+    description: 'Creating intelligent AI agents using LangChain, CrewAI, and OpenAI Agents SDK for automated decision-making and execution, providing efficient, adaptive solutions tailored to meet complex and evolving business objectives.',
     link: '/services'
   },
   {
     id: 3,
-    title: 'Graphic Design',
-    description: 'Creating visually stunning designs that captivate and engage audiences.',
-    icon: graphicDesignIcon,
+    title: 'Workflow Automation',
+    description: 'Automating workflows with n8n by integrating AI and custom processes to increase productivity and minimize manual work, specializing in scalable solutions that optimize social media and business process operations effectively.',
     link: '/services'
   },
   {
     id: 4,
-    title: 'SEO Optimization',
-    description: 'Elevating online visibility and driving organic traffic through strategies.',
-    icon: seoOptIcon,
+    title: 'AI Integration',
+    description: 'Integrating AI capabilities including chatbots, vector databases, and custom features to enhance digital infrastructure, improving scalability, efficiency, and user experience for forward-thinking, high-performance businesses.',
     link: '/services'
   }
-]
+];
 
 export const myShowCases: myShowCasesTypes[] = [
   {
     id: 1,
-    title: 'Devcraft',
-    description: 'Showcasing expertise, passion, and innovation in the realm of development.',
-    link: 'vortex.com',
-    type: 'Portfolio',
+    title: 'Blog Agent',
+    description: 'Multi-agent AI system built with crewAI to collaborate effectively on complex tasks.',
+    link: 'https://github.com/abdulwasea89/Blog-Agent',
+    type: 'AI Project',
     theme: 'Dark',
-    pages: 4,
-    image: project_1,
   },
   {
     id: 2,
-    title: 'Zenith Gym',
-    description: 'Empowering fitness enthusiasts with an immersive online experience.',
-    link: 'zenith.com',
-    type: 'Fitness',
+    title: 'Study Quiz',
+    description: 'Learn AI agents interactively and test your knowledge with quizzes and MCP exercises.',
+    link: 'https://github.com/abdulwasea89/Study-quiz',
+    type: 'Learning Tool',
     theme: 'Light',
-    pages: 5,
-    image: project_2,
+
   },
   {
     id: 3,
-    title: 'Novus Agency',
-    description: 'Transforming ideas into digital realities with creativity and expertise.',
-    link: 'novus.com',
-    type: 'Business',
+    title: 'Travel Planner AI',
+    description: 'AI-powered travel planner generating personalized itineraries using Google Gemini and LangChain.',
+    link: 'https://github.com/abdulwasea89/Travel-Planner',
+    type: 'AI Agent',
     theme: 'Dark',
-    pages: 6,
-    image: project_3,
+
   },
   {
     id: 4,
-    title: 'Apex Agency',
-    description: 'Setting the pinnacle of digital excellence with cutting-edge solutions and creativity.',
-    link: 'apex.com',
-    type: 'Business',
+    title: 'Awesome LLM Apps',
+    description: 'Curated collection of LLM apps with AI Agents, RAG, Multi-agent Teams, MCP & open-source models.',
+    link: 'https://github.com/abdulwasea89/awesome-ai-agents-and-agentic-ai-apps',
+    type: 'Repository',
     theme: 'Light',
-    pages: 6,
-    image: project_4,
+  },
+  {
+    id: 5,
+    title: 'Claude Code Free',
+    description: 'Install and configure Claude Code CLI, Anthropic’s AI coding assistant for macOS, Linux, and Windows.',
+    link: 'https://github.com/abdulwasea89/Claude-Code-Free',
+    type: 'AI Tool',
+    theme: 'Dark',
+
+  },
+  {
+    id: 6,
+    title: 'AI News Crew',
+    description: 'Multi-agent AI system for news aggregation and analysis powered by crewAI framework.',
+    link: 'https://github.com/abdulwasea89/News-Agent',
+    type: 'AI Project',
+    theme: 'Light',
+  },
+  {
+    id: 7,
+    title: 'Sales AI Agent',
+    description: 'Virtual sales agent using LangGraph, Streamlit & Gemini Flash for personalized customer interactions.',
+    link: 'https://github.com/abdulwasea89/sales-ai-agent-langgraph',
+    type: 'AI Agent',
+    theme: 'Dark',
+  },
+  {
+    id: 8,
+    title: 'First Portfolio',
+    description: 'My first personal portfolio showcasing projects and skills.',
+    link: 'https://abdulwasea.vercel.app/',
+    type: 'Portfolio',
+    theme: 'Light',
+  },
+  {
+    id: 9,
+    title: 'Second Portfolio',
+    description: 'My second portfolio project highlighting web development and AI works.',
+    link: 'https://abdulwasay.vercel.app/',
+    type: 'Portfolio',
+    theme: 'Dark',
+  },
+  {
+    id: 10,
+    title: 'Gemini ChatBot',
+    description: 'ChatBot using Next.js, server actions, Google Gemini Pro, and Clerk authentication.',
+    link: 'https://chat-bot-ai-gemini.vercel.app/',
+    type: 'AI ChatBot',
+    theme: 'Light',
+
+  },
+  {
+    id: 11,
+    title: 'Bits-0f-C0de',
+    description: 'Personal blog built with Next.js and Tailwind CSS, rendering markdown files with dark mode support.',
+    link: 'https://bit-ten.vercel.app/',
+    type: 'Blog',
+    theme: 'Dark',
+
+  },
+  {
+    id: 12,
+    title: 'Metavesus',
+    description: 'Modern metaverse landing page showcasing Web3.0 features.',
+    link: 'https://metavesus.vercel.app/',
+    type: 'Web3 App',
+    theme: 'Light',
+
+  },
+  {
+    id: 13,
+    title: 'Flair E-commerce',
+    description: 'E-commerce application built with modern web technologies and clean UI/UX design.',
+    link: 'https://flair1.vercel.app/',
+    type: 'E-commerce',
+    theme: 'Dark',
+
+  },
+  {
+    id: 14,
+    title: 'Node.js Projects',
+    description: 'Collection of Node.js CLI projects including calculator, quiz, ATM simulator, and more.',
+    link: 'https://github.com/awrgb/Node-Projects',
+    type: 'CLI Tools',
+    theme: 'Light',
+
+  },
+  {
+    id: 15,
+    title: 'TTS Agent',
+    description: 'Text-to-speech agent powered by LangGraph for AI-powered speech synthesis.',
+    link: 'https://github.com/awrgb/TTS-AGENT',
+    type: 'AI Tool',
+    theme: 'Dark',
+
   }
-]
+];
 
 export const testimonials: testimonialsTypes[] = [
   {
@@ -332,104 +401,86 @@ export const testimonials: testimonialsTypes[] = [
 export const myServicesPlans: myServicesPlansTypes[] = [
   {
     id: 1,
-    service: 'Web Design',
-    price: '$50',
-    description: 'Crafting visually captivating and user-friendly websites for online success.',
-    completedWorks: '25+',
-    experience: '5+',
-    totalHoursWorked: '500 hours',
-    icon: webDesignIcon,
-  },
-  {
-    id: 2,
-    service: 'Web Dev',
-    price: '$60',
-    description: 'Bringing ideas to life with robust and scalable web solutions.',
-    completedWorks: '30+',
-    experience: '6+',
-    totalHoursWorked: '420 hours',
+    service: 'Full Stack Website Development',
+    description: 'Building modern web applications with Next.js, React, TypeScript, and Prisma. Specializing in FastAPI backend development, REST APIs, and database integration for scalable solutions.',
+    experience: '2+',
     icon: webDevIcon,
   },
   {
+    id: 2,
+    service: 'AI Agent Development',
+    description: 'Creating intelligent AI agents using LangChain, CrewAI, Mastra, LangGraph, AGNO, and OpenAI Agents SDK. Specializing in multi-agent systems and autonomous task automation.',
+    experience: '2+',
+    icon: webDesignIcon,
+  },
+  {
     id: 3,
-    service: 'Graphic Design',
-    price: '$40',
-    description: 'Creating visually stunning designs that captivate and engage audiences.',
-    completedWorks: '40+',
-    experience: '8+',
-    totalHoursWorked: '328 hours',
+    service: 'AI Automation',
+    description: 'Implementing AI-powered automation with n8n, Botpress, and vector databases. Specializing in social media automation, productivity apps, and business process optimization.',
+    experience: '2+',
     icon: graphicDesignIcon,
   },
   {
     id: 4,
-    service: 'SEO',
-    price: '$70',
-    description: 'Elevating online visibility and driving organic traffic through strategies.',
-    completedWorks: '20+',
-    experience: '4+',
-    totalHoursWorked: '223 hours',
+    service: 'Web Development',
+    description: 'Developing modern websites with clean code and optimal performance. Specializing in responsive design, SEO optimization, and seamless user experiences.',
+    experience: '2+',
     icon: seoOptIcon,
   }
 ];
 
 export const faqData: FAQ[] = [
   {
-    question: "Can you work with clients remotely?",
-    answer: "Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.",
+    question: "What technologies do you use for full-stack development?",
+    answer: "I specialize in modern web technologies including Next.js, React, and TypeScript for frontend development, along with FastAPI and Prisma for backend and database management. This stack ensures high-performance, scalable applications with excellent developer experience and maintainability.",
   },
   {
-    question: "Will my website be mobile-friendly?",
-    answer: "Absolutely! Mobile responsiveness is a top priority in today's digital landscape. I design and develop websites that are fully responsive and adaptable to various devices and screen sizes. Your website will provide an optimal user experience whether accessed via desktops, smartphones, or tablets.",
+    question: "What kind of AI agents can you develop?",
+    answer: "I develop various types of AI agents using cutting-edge frameworks like LangChain, CrewAI, Mastra, LangGraph, AGNO, and OpenAI Agents SDK. These can include autonomous task agents, multi-agent systems, chatbots, automation agents, and custom AI solutions tailored to your specific needs.",
   },
   {
-    question: "How long does it typically take to complete a project?",
-    answer: "The timeline for each project varies depending on its scope and complexity. Factors such as the number of pages, functionalities, and the client feedback process can impact the timeline. Upon discussing your project requirements, I will provide you with a realistic timeline and keep you updated throughout the process.",
+    question: "How can AI automation benefit my business?",
+    answer: "AI automation can streamline your workflows, reduce manual tasks, and improve efficiency. Using tools like n8n, Botpress, and vector databases, I can automate social media management, customer service, data processing, and create custom productivity applications tailored to your business needs.",
   },
   {
-    question: "Can you integrate third-party tools into my website?",
-    answer: "Yes, I have experience integrating various third-party tools, plugins, and platforms into websites. Whether you need to integrate e-commerce functionalities, social media integration, email marketing services, or anything else, I can recommend and help ensure smooth integration.",
+    question: "Do you provide ongoing support and maintenance?",
+    answer: "Yes, I offer comprehensive support and maintenance services for both web applications and AI systems. This includes regular updates, performance optimization, security patches, and continuous improvements to keep your systems running efficiently.",
   },
   {
-    question: "Do you offer website maintenance?",
-    answer: "Yes, I offer website maintenance services to ensure your website remains up to date, secure, and optimized. From performance updates to adding new features and content, I can provide ongoing support to keep your website running smoothly.",
+    question: "How do you handle project communication and updates?",
+    answer: "I maintain clear communication throughout the project using video calls, email, and project management tools. You'll receive regular updates on progress, milestones, and any important decisions. I also encourage feedback and questions to ensure the final product meets your expectations.",
   },
   {
-    question: "How do you handle website revisions?",
-    answer: "I value your input and collaboration throughout the design process. Upon completing an initial design, I encourage you to provide feedback. I incorporate your suggestions and revisions to ensure the final product aligns with your vision.",
+    question: "Can you integrate AI features into existing websites?",
+    answer: "Absolutely! I can integrate AI capabilities into your existing website or application. This could include chatbots, content generation, automated workflows, recommendation systems, or custom AI features specific to your business needs.",
   },
   {
-    question: "Can you optimize my website?",
-    answer: "Certainly! I incorporate search engine optimization (SEO) best practices into my development process. This includes using relevant keywords, optimizing meta tags, creating search-engine-friendly URLs, and ensuring your website has a solid foundation for better search engine visibility.",
+    question: "What's your development process?",
+    answer: "My development process is iterative and collaborative. It starts with understanding your requirements, followed by planning and architecture design. I use agile methodologies, providing regular demos and updates, and incorporate feedback throughout the development cycle to ensure the final product aligns with your vision.",
   },
   {
     question: "What are your payment terms?",
-    answer: "Payment terms may vary depending on the project scope and duration. Generally, I request an initial deposit before commencing work.",
+    answer: "Payment terms are project-based and typically structured with an initial deposit and milestone payments. I provide clear pricing based on project scope and requirements, ensuring transparency throughout our collaboration.",
   },
 ];
 
 export const followerData: FollowerData[] = [
   {
     platform: "twitter",
-    followers: "12.6K",
-    url: "https://twitter.com/",
+    followers: "",
+    url: 'https://x.com/AiveonAi',
     icon: XLogo,
   },
   {
     platform: "Instagram",
-    followers: "8.3K",
-    url: "https://www.instagram.com/",
+    followers: "",
+    url: 'https://www.instagram.com/abdul_wasea89/',
     icon: instagramIcon,
   },
   {
     platform: "LinkedIn",
-    followers: "2.5K",
-    url: "https://www.linkedin.com/",
+    followers: "",
+    url: "https://www.linkedin.com/in/abdul-wasea-a8a08737a/",
     icon: linkedInIcon,
-  },
-  {
-    platform: "Dribbble",
-    followers: "3.2K",
-    url: "https://dribbble.com/",
-    icon: dribbleIcon,
   },
 ];

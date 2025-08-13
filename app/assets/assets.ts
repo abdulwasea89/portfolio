@@ -11,6 +11,20 @@ import spotify from "@assets/spotify.svg";
 import twitter from "@assets/twitter.svg";
 import youtube from "@assets/youtube.svg";
 
+import nextjsIcon from '@/app/assets/logos/nextjs.png'
+import tailwindIcon from '@/app/assets/logos/tailwind.png'
+import zodIcon from '@/app/assets/logos/zod.png'
+import fastapiIcon from '@/app/assets/logos/fastapi.png'
+import openaiIcon from '@/app/assets/logos/openai.svg'
+import langchainIcon from '@/app/assets/logos/langchain.svg'
+import n8nIcon from '@/app/assets/logos/n8n.svg'
+import botpressIcon from '@/app/assets/logos/botpress.png'
+import mastraIcon from '@/app/assets/logos/mastra.svg'
+import perplexityIcon from '@/app/assets/logos/perplexity.png'
+import dockerIcon from '@/app/assets/logos/docker.png'
+import vercelIcon from '@/app/assets/logos/vercel.png'
+
+
 import briefcaseIconley from "@assets/briefcase-icon.svg";
 import vortexLogo from "@assets/vortex-logo.svg";
 import pixelworksLogo from "@assets/pixelworks-logo.svg";
@@ -55,18 +69,32 @@ import multiplyIcon from "@assets/multiply.svg";
 import instagramIcon from "@assets/instagram.svg";
 import linkedInIcon from "@assets/linkedin.svg";
 import dribbleIcon from "@assets/dribble-icon.svg";
+
 export {
   AvatarMe,
   handGif,
   discord,
-  twitter,
-  youtube,
   dribble,
   pinterest,
   tiktok,
   snapchat,
   facebook,
   spotify,
+  twitter,
+  youtube,
+  nextjsIcon,
+  tailwindIcon,
+  zodIcon,
+  fastapiIcon,
+  openaiIcon,
+  langchainIcon,
+  n8nIcon,
+  botpressIcon,
+  mastraIcon,
+  perplexityIcon,
+  
+  dockerIcon,
+  vercelIcon,
   briefcaseIconley,
   vortexLogo,
   pixelworksLogo,
@@ -103,5 +131,5 @@ export {
   multiplyIcon,
   instagramIcon,
   linkedInIcon,
-  dribbleIcon,
+  dribbleIcon
 };
